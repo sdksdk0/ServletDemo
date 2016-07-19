@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+ 	<context-param>
+ 		<param-name>encoding</param-name>
+ 		<param-value>UTF-8</param-value>
+ 	</context-param>
+ 
+ 
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletDemo1</servlet-name>
+    <servlet-class>cn.tf.servlet.ServletDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletDemo2</servlet-name>
+    <servlet-class>cn.tf.servlet.ServletDemo2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletDemo3</servlet-name>
+    <servlet-class>cn.tf.servlet.ServletDemo3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletDemo4</servlet-name>
+    <servlet-class>cn.tf.servlet.ServletDemo4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletDemo5</servlet-name>
+    <servlet-class>cn.tf.servlet.ServletDemo5</servlet-class>
+    <init-param>
+    	<param-name>encoding</param-name>
+    	<param-value>UTF-8</param-value>
+    </init-param>
+    
+    
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletDemo6</servlet-name>
+    <servlet-class>cn.tf.servlet.ServletDemo6</servlet-class>
+    
+        <init-param>
+    	<param-name>encoding</param-name>
+    	<param-value>UTF-8</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>demo1</servlet-name>
+    <servlet-class>cn.tf.servletContext.demo1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Demo2</servlet-name>
+    <servlet-class>cn.tf.servletContext.Demo2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Demo3</servlet-name>
+    <servlet-class>cn.tf.servletContext.Demo3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Demo4</servlet-name>
+    <servlet-class>cn.tf.servletContext.Demo4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Demo5</servlet-name>
+    <servlet-class>cn.tf.servletContext.Demo5</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Demo6</servlet-name>
+    <servlet-class>cn.tf.servletContext.Demo6</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ServletDemo1</servlet-name>
+    <url-pattern>/servlet/ServletDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletDemo2</servlet-name>
+    <url-pattern>/servlet/ServletDemo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletDemo3</servlet-name>
+    <url-pattern>/servlet/ServletDemo3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletDemo4</servlet-name>
+    <url-pattern>/servlet/ServletDemo4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletDemo5</servlet-name>
+    <url-pattern>/servlet/ServletDemo5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletDemo6</servlet-name>
+    <url-pattern>/servlet/ServletDemo6</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>demo1</servlet-name>
+    <url-pattern>/servlet/demo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo2</servlet-name>
+    <url-pattern>/servlet/Demo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo3</servlet-name>
+    <url-pattern>/servlet/Demo3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo4</servlet-name>
+    <url-pattern>/servlet/Demo4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo5</servlet-name>
+    <url-pattern>/servlet/Demo5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo6</servlet-name>
+    <url-pattern>/servlet/Demo6</url-pattern>
+  </servlet-mapping>
+
+</web-app>
